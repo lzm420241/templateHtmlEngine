@@ -1,4 +1,6 @@
-/* from: http://blog.jobbole.com/56689/ */
+/* from: http://blog.jobbole.com/56689/
+         https://www.gitbook.com/book/leohxj/front-end-database/details
+*/
 
 var TemplateEngine = function(html, options) {
     var re = /<%([^%>]+)?%>/g, reExp = /(^( )?(if|for|else|switch|case|break|{|}))(.*)?/g, code = 'var r=[];\n', cursor = 0;
